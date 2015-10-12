@@ -28,11 +28,11 @@ class FirstCitizen
      *
      * @param $name citizen name
      *
-     * @throws InvalidArgumentException Invalid or empty name
+     * @throws InvalidArgumentException Invalid citizen name
      */
     public function __construct($name)
     {
-        if (!isset($name) && !($name == "")) {
+        if (is_string($name) == false || $name == "") {
             throw new InvalidArgumentException("Invalid citizen name");
         }
         $this->name = $name;
