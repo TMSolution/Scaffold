@@ -5,14 +5,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Vendor\Example;
-
+namespace Vendor\Project;
 
 use Vendor\Project\FirstCitizen;
 
 class FirstCitizenTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @covers FirstCitizenTest
      */

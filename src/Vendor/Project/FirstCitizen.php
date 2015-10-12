@@ -47,5 +47,4 @@ class FirstCitizen
     {
         return $this->name;
     }
-
 }
