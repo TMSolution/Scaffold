@@ -1,5 +1,6 @@
 # Scaffold
 
+Project scaffold for PHP open source code
 
 <a href="#" id="status-image-popup" name="status-images" class="open-popup" data-ember-action="880">
     <img title="Build Status Images" src="https://travis-ci.org/krzysiekpiasecki/Scaffold.svg">
@@ -43,3 +44,13 @@ $ php ./vendor/bin/php-cs-fixer fix
 ``` bash
 $ php ./vendor/bin/phploc src
 ```
+
+# Starting project
+
+- Change project folder name
+- Add your credentials to LICENCE.md
+- Update composer.json and install required dependecies
+- Create new github repository
+- Connect repository with Travis CI
+- Connect repository with Scrutinizer CI
+- Publish your repository to github.com
