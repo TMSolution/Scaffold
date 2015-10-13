@@ -16,8 +16,8 @@
     "phpunit/phpunit": "5.*",
     "phpunit/phpunit-story": "*",
     "phploc/phploc": "*",
-    "fabpot/php-cs-fixer": "*".
-    "krzysiekpiasecki/stopwatch": "*".
+    "fabpot/php-cs-fixer": "*",
+    "krzysiekpiasecki/stopwatch": "*"
   },
   "autoload": {
     "psr-4": {"Vendor\\": "src/Vendor"}
