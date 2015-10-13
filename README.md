@@ -7,18 +7,22 @@
 
 # Scaffolding
 
+### Clonning scaffold
 ``` bash
 $ git clone https://github.com/krzysiekpiasecki/Scaffold.git
-$ cd Scaffold
-$ composer install --dev
-$ rm -rf .git
 ```
 
-### Initializing local git repository
+### Creating local repository
 ``` bash
+$ cd Scaffold
+$ rm -rf .git
 $ git init
 ```
 
+### Installing devolopment tools
+``` bash
+$ composer install --dev
+```
 
 # Using development tools
 
