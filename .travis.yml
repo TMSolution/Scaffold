@@ -15,12 +15,15 @@ install:
   - travis_retry composer selfupdate
   - travis_retry composer install --no-interaction --prefer-source
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - echo $HOME
+
 
 before_script:
   - phpenv config-add php.ini.dist
 
 script:
-  - php-cs-fixer fix
+  - ./vendor/php-cs-fixer fix
+
 after_success:
 after_failure:
 after_script:
