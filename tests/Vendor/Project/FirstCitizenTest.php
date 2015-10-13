@@ -46,5 +46,4 @@ class FirstCitizenTest extends \PHPUnit_Framework_TestCase
     {
         $firstCitizen = new FirstCitizen("");
     }
-
 }
