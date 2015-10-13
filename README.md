@@ -43,6 +43,13 @@ $ php ./vendor/bin/php-cs-fixer fix
 $ php ./vendor/bin/phploc src
 ```
 
+#### Using stopwatch
+```php
+$sw = new \KrzysiekPiasecki\Diagnostics\Stopwatch();
+$time = $sw1->watch()->time();
+```
+[More on using stopwatch](https://github.com/krzysiekpiasecki/Stopwatch)
+
 # Starting project
 
 - Change project folder name
