@@ -33,8 +33,18 @@ class FirstCitizenTest extends \PHPUnit_Framework_TestCase
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Invalid citizen name
      */
-    public function testConstructEmptyName()
+    public function testConstructInvalidType()
     {
         $firstCitizen = new FirstCitizen(123);
     }
+
+    /**
+     * @expectedException \InvalidArgumentException
+     * @expectedExceptionMessage Invalid citizen name
+     */
+    public function testConstructEmptyName()
+    {
+        $firstCitizen = new FirstCitizen("");
+    }
+
 }
