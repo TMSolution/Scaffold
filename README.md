@@ -1,12 +1,10 @@
 # Scaffold
 
-Project scaffold for PHP open source code
-
 <a href="#" id="status-image-popup" name="status-images" class="open-popup" data-ember-action="880">
     <img title="Build Status Images" src="https://travis-ci.org/krzysiekpiasecki/Scaffold.svg">
 </a>
 
-# Scaffolding
+# Scaffolding process
 
 ### Clonning scaffold
 ``` bash
