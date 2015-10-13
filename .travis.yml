@@ -19,10 +19,9 @@ before_script:
   - phpenv config-add php.ini.dist
 
 script:
-  - ./vendor/bin/phpunit --config
+  - ./vendor/bin/phpunit
   - ./vendor/bin/php-cs-fixer fix
   - ./vendor/bin/phploc src
-
 
 after_success:
 after_failure:
