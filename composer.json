@@ -1,6 +1,7 @@
 {
   "name": "vendor_name/package_name",
   "description": "description_text",
+  "keywords": ["scaffold", "template"],
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
