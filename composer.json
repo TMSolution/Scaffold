@@ -3,7 +3,7 @@
   "description": "description_text",
   "keywords": ["scaffold", "template"],
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "author's name",
